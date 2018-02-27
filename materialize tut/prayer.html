@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
+    <!--Import materialize.css-->
+    <link type="text/css" rel="stylesheet" href="assets/css/materialize.min.css"  media="screen,projection"/>
+    <link rel="stylesheet" href="assets/css/style.css" type="text/css">
+    <!--Let browser know website is optimized for mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  </head>
+  <body>
+    <div class="navbar-fixed">
+      <nav class="amber accent-4">
+          <div class="nav-wrapper container navbar-fixed amber accent-4">
+            <a href="#" class="brand-logo center" style="font-size:25px;">GKMCC- Cabuyao Bayan</a>
+            <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">border_clear</i></a>
+            
+            <ul id="nav-mobile2" class="right hide-on-med-and-down"  style="padding-right:15px; font-weight:bold;">
+                <li><a href="index.html"><i class="material-icons left" id="home">home</i>Home</a></li>
+             <li class="active"><a class="btn tooltipped amber accent-4" data-position="bottom" data-delay="50" data-tooltip="Click here to send us your prayer request"><i class="material-icons">email</i></a></li>
+             <li><a href="#"><i class="material-icons">settings</i></a></li> 
+             <li>Logout</li>
+            </ul>
+            <ul id="nav" class="left hide-on-med-and-down" style="font-weight:bold;" >
+                <li><a href="news.html">Bulletin</i></a></li>
+                <li><a href="about.html">About us</a></li>
+                <li><a href="contact.html">Contact us</a></li>
+              </ul>
+          </div>
+        </nav>
+      </div>
+<!--Image main-->
+<div class="container-fluid center black-text" style="background-color:amber accent 2;">
+        <h3>We're happy to pray for you!</h3>
+        <hr class="gray-text">
+        <br>
+        <br>
+<br>
+            <div class="row">
+                        <div class="col s7">
+                            <img src="assets/img/pray.jpg" width="1020" alt="" class="responsive-img">
+                           
+                    </div>
+
+        <div class="col s5" >
+                <div class="row">
+                        <form action="" class="col s12" style="padding-top:5%;">
+                        <div class="row">
+                            <div class="input-field col s8">
+                            <input type="text" id="fullname" class="validate">
+                            <label for="fullname">Full Name</label>
+                            </div>
+                            <div class="input-field col s8">
+                            <input type="text" id="email" class="validate">
+                            <label for="email">Email</label>
+                            </div> 
+                            <div class="input-field col s8">
+                            <textarea data-length="1000" id="pray" class="materialize-textarea"></textarea>
+                            <label for="pray">Please Type your Prayer Request</label>
+                            </div> 
+                        </div>
+                         </form>
+                         <a href="#" class="btn waves-effect amber accent-4 left"><i class="material-icons right">send</i> Send</a>
+        </div>
+        </div>
+    </div>
+    <div class="caption center-align">
+            <h4>Don't lose hope, NOTHING is impossible in prayer.</h4>
+            
+        </div>
+</div>
+    
+    
+<!--FOOTER-->      
+      <footer class="page-footer amber accent-4" style="padding-top:30px;">
+          <div class="container">
+            <div class="row">
+              <div class="col l6 s12">
+                <h5 class="white-text text-accent-2" style="font-weight:bold;">We're glad you visit us</h5>
+                <p class="white-text text-lighten-2">Know how GOD is awesome in our life.</p>
+              </div>
+              <div class="col l4 offset-l2 s12">
+                <ul class="white-text">
+                 <li><a class="white-text text-lighten-2" href="">News & Media</a></li>
+                 <li><a class="white-text text-lighten-2" href="">Schedule of Services</a></li>
+                 <li><a class="white-text text-lighten-2" href="">About Us</a></li>
+                 <li><a class="white-text text-lighten-2" href="">Know Us</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="footer-copyright">
+            <div class="container center" style="font-weight:bold;color:white;">
+            © 2018 gkmcc-cabuyaobayan.com
+            </div>
+          </div>
+        </footer>
+
+
+
+
+    <!--Import jQuery before materialize.js-->
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script type="text/javascript" src="js/materialize.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+    <script>
+    $ (document).ready(function(){
+      $('.button-collapse').sideNav();
+      $('.tooltipped').tooltip({delay: 50});
+     
+    });</script>
+  </body>
+</html>
